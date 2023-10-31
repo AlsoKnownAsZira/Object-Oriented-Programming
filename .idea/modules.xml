@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Polymorphism_Brilyan.iml" filepath="$PROJECT_DIR$/.idea/Polymorphism_Brilyan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism_Brilyan/src.iml" filepath="$PROJECT_DIR$/Polymorphism_Brilyan/src.iml" />
     </modules>
   </component>
 </project>
