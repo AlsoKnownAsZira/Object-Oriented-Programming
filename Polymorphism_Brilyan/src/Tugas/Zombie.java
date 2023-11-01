@@ -11,7 +11,7 @@ public class Zombie implements Destroyable {
 
     }
     public String getZombieInfo(){
-        return "";
+        return "Health = "+health+"\n"+"Level = "+level;
     }
 
 }

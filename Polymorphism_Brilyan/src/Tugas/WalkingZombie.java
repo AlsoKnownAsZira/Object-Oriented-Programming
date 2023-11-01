@@ -21,7 +21,7 @@ public class WalkingZombie extends Zombie{
     }
     @Override
     public void destroyed(){
-        this.health -= (this.health * 0.2);
+        this.health -= (this.health * 0.19);
     }
     @Override
     public String getZombieInfo(){
