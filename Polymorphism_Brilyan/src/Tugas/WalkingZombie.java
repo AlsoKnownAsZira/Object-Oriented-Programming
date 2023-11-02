@@ -1,5 +1,4 @@
 package Tugas;
-
 public class WalkingZombie extends Zombie{
     public WalkingZombie(int health, int level){
         this.health = health;
@@ -22,6 +21,8 @@ public class WalkingZombie extends Zombie{
     @Override
     public void destroyed(){
         this.health -= (this.health * 0.19);
+        //Jika menurut Jobsheet maka hasilnya salah
+        // this.health -= (this.health * 0.2);
     }
     @Override
     public String getZombieInfo(){

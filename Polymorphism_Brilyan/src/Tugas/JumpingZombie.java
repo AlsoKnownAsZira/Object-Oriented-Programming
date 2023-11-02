@@ -21,6 +21,8 @@ public class JumpingZombie extends Zombie{
     }
     public void destroyed(){
         this.health -= (this.health * 0.091);
+        //Jika menurut Jobsheet maka hasilnya salah
+        // this.health -= (this.health * 0.1);
     }
     @Override
     public String getZombieInfo(){
